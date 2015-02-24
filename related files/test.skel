@@ -1,0 +1,118 @@
+balljoint root {
+	offset 0 0 0
+	boxmin -0.2 -0.2 -0.5
+	boxmax 0.2 0.2 0.5
+	pose 0 0 0
+	balljoint head {
+		offset 0 0 0.5
+		boxmin -0.1 -0.1 0
+		boxmax 0.1 0.1 0.2
+		pose 0.3 0 0
+	}
+	balljoint hip {
+		offset 0 0 -0.5
+		boxmin -0.4 -0.3 0
+		boxmax 0.4 0.3 -0.8
+		pose -0.1 0 0
+	}
+	balljoint leg_l_1_1 {
+		offset 0.2 0 0.3
+		boxmin 0.0 -0.05 -0.05
+		boxmax 1.0 0.05 0.05
+		pose 0 -0.3 -0.4
+		balljoint leg_l_1_2 {
+			offset 1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax 1.0 0.05 0.05
+			pose 0 -0 -0.4
+		}
+	}
+	balljoint leg_l_2_1 {
+		offset 0.2 0 0.1
+		boxmin 0.0 -0.05 -0.05
+		boxmax 1.0 0.05 0.05
+		pose 0 -0.1 -0.4
+		balljoint leg_l_2_2 {
+			offset 1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax 1.0 0.05 0.05
+			pose 0 -0 -0.4
+		}
+	}
+	balljoint leg_l_3_1 {
+		offset 0.2 0 -0.1
+		boxmin 0.0 -0.05 -0.05
+		boxmax 1.0 0.05 0.05
+		pose 0 0.1 -0.4
+		balljoint leg_l_3_2 {
+			offset 1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax 1.0 0.05 0.05
+			pose 0 -0 -0.4
+		}
+	}
+	balljoint leg_l_4_1 {
+		offset 0.2 0 -0.3
+		boxmin 0.0 -0.05 -0.05
+		boxmax 1.0 0.05 0.05
+		pose 0 0.3 -0.4
+		balljoint leg_l_4_2 {
+			offset 1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax 1.0 0.05 0.05
+			pose 0 -0 -0.4
+		}
+	}
+
+
+
+	balljoint leg_r_1_1 {
+		offset -0.2 0 0.3
+		boxmin 0.0 -0.05 -0.05
+		boxmax -1.0 0.05 0.05
+		pose 0 0.3 0.4
+		balljoint leg_r_1_2 {
+			offset -1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax -1.0 0.05 0.05
+			pose 0 0 0.4
+		}
+	}
+	balljoint leg_r_2_1 {
+		offset -0.2 0 0.1
+		boxmin 0.0 -0.05 -0.05
+		boxmax -1.0 0.05 0.05
+		pose 0 0.1 0.4
+		balljoint leg_r_2_2 {
+			offset -1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax -1.0 0.05 0.05
+			pose 0 0 0.4
+		}
+	}
+	balljoint leg_r_3_1 {
+		offset -0.2 0 -0.1
+		boxmin 0.0 -0.05 -0.05
+		boxmax -1.0 0.05 0.05
+		pose 0 -0.1 0.4
+		balljoint leg_r_3_2 {
+			offset -1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax -1.0 0.05 0.05
+			pose 0 0 0.4
+		}
+	}
+	balljoint leg_r_4_1 {
+		offset -0.2 0 -0.3
+		boxmin 0.0 -0.05 -0.05
+		boxmax -1.0 0.05 0.05
+		pose 0 -0.3 0.4
+		balljoint leg_r_4_2 {
+			offset -1 0 0
+			boxmin 0.0 -0.05 -0.05
+			boxmax -1.0 0.05 0.05
+			pose 0 0 0.4
+		}
+	}
+	
+}
